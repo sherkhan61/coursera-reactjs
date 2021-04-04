@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/coursera-reactjs/assignment1/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/coursera-reactjs/assignment1/static/js/main.f7df7f2c.chunk.js",
-    "main.js.map": "/coursera-reactjs/assignment1/static/js/main.f7df7f2c.chunk.js.map",
-    "runtime-main.js": "/coursera-reactjs/assignment1/static/js/runtime-main.557fd626.js",
-    "runtime-main.js.map": "/coursera-reactjs/assignment1/static/js/runtime-main.557fd626.js.map",
-    "static/css/2.150d169a.chunk.css": "/coursera-reactjs/assignment1/static/css/2.150d169a.chunk.css",
-    "static/js/2.389c92d8.chunk.js": "/coursera-reactjs/assignment1/static/js/2.389c92d8.chunk.js",
-    "static/js/2.389c92d8.chunk.js.map": "/coursera-reactjs/assignment1/static/js/2.389c92d8.chunk.js.map",
-    "index.html": "/coursera-reactjs/assignment1/index.html",
-    "static/css/2.150d169a.chunk.css.map": "/coursera-reactjs/assignment1/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.8c8b27cf.chunk.css.map": "/coursera-reactjs/assignment1/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.389c92d8.chunk.js.LICENSE.txt": "/coursera-reactjs/assignment1/static/js/2.389c92d8.chunk.js.LICENSE.txt",
-    "static/media/elaicheesecake.79bcea39.png": "/coursera-reactjs/assignment1/static/media/elaicheesecake.79bcea39.png",
-    "static/media/uthappizza.e3b6414e.png": "/coursera-reactjs/assignment1/static/media/uthappizza.e3b6414e.png",
-    "static/media/vadonut.c5cd8144.png": "/coursera-reactjs/assignment1/static/media/vadonut.c5cd8144.png",
-    "static/media/zucchipakoda.57b1a046.png": "/coursera-reactjs/assignment1/static/media/zucchipakoda.57b1a046.png"
+    "main.css": "/coursera-reactjs/assignment2/static/css/main.1c6427c0.chunk.css",
+    "main.js": "/coursera-reactjs/assignment2/static/js/main.65509f11.chunk.js",
+    "main.js.map": "/coursera-reactjs/assignment2/static/js/main.65509f11.chunk.js.map",
+    "runtime-main.js": "/coursera-reactjs/assignment2/static/js/runtime-main.5a1a448f.js",
+    "runtime-main.js.map": "/coursera-reactjs/assignment2/static/js/runtime-main.5a1a448f.js.map",
+    "static/css/2.afce38f0.chunk.css": "/coursera-reactjs/assignment2/static/css/2.afce38f0.chunk.css",
+    "static/js/2.2df40889.chunk.js": "/coursera-reactjs/assignment2/static/js/2.2df40889.chunk.js",
+    "static/js/2.2df40889.chunk.js.map": "/coursera-reactjs/assignment2/static/js/2.2df40889.chunk.js.map",
+    "index.html": "/coursera-reactjs/assignment2/index.html",
+    "static/css/2.afce38f0.chunk.css.map": "/coursera-reactjs/assignment2/static/css/2.afce38f0.chunk.css.map",
+    "static/css/main.1c6427c0.chunk.css.map": "/coursera-reactjs/assignment2/static/css/main.1c6427c0.chunk.css.map",
+    "static/js/2.2df40889.chunk.js.LICENSE.txt": "/coursera-reactjs/assignment2/static/js/2.2df40889.chunk.js.LICENSE.txt",
+    "static/media/alberto.82933185.png": "/coursera-reactjs/assignment2/static/media/alberto.82933185.png",
+    "static/media/buffet.fe37515a.png": "/coursera-reactjs/assignment2/static/media/buffet.fe37515a.png",
+    "static/media/elaicheesecake.79bcea39.png": "/coursera-reactjs/assignment2/static/media/elaicheesecake.79bcea39.png",
+    "static/media/font-awesome.min.css": "/coursera-reactjs/assignment2/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/logo.23118273.png": "/coursera-reactjs/assignment2/static/media/logo.23118273.png",
+    "static/media/uthappizza.e3b6414e.png": "/coursera-reactjs/assignment2/static/media/uthappizza.e3b6414e.png",
+    "static/media/vadonut.c5cd8144.png": "/coursera-reactjs/assignment2/static/media/vadonut.c5cd8144.png",
+    "static/media/zucchipakoda.57b1a046.png": "/coursera-reactjs/assignment2/static/media/zucchipakoda.57b1a046.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.557fd626.js",
-    "static/css/2.150d169a.chunk.css",
-    "static/js/2.389c92d8.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.f7df7f2c.chunk.js"
+    "static/js/runtime-main.5a1a448f.js",
+    "static/css/2.afce38f0.chunk.css",
+    "static/js/2.2df40889.chunk.js",
+    "static/css/main.1c6427c0.chunk.css",
+    "static/js/main.65509f11.chunk.js"
   ]
 }
