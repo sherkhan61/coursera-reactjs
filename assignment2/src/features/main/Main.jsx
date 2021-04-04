@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import {Header, Footer} from "../ui";
-import { Home, About } from "../";
+import { Home, About, Menu, DishDetail } from "../";
 import { COMMENTS, DISHES, LEADERS, PROMOTIONS } from '../../lib/store/store'
 
 class Main extends Component {
@@ -37,6 +37,18 @@ class Main extends Component {
             );
         };
 
+        const DishId = ({match}) => {
+            return(
+                <DishDetail
+
+                    dish={this.state.dishes.filter( (dish) => dish.id === parseInt(match.params.dishId, 10))[0] }
+                    comments={this.state.comments.filter( (comment) => comment.dishId === parseInt(match.params.dishId, 10)) }
+
+
+                />
+            );
+        };
+
         return (
             <div>
                 <Header/>
@@ -44,6 +56,8 @@ class Main extends Component {
                 <Switch>
                     <Route path="/home" component={ HomePage } />
                     <Route exact path="/aboutus" component={ AboutUsPage } />
+                    <Route exact path="/menu" component={() => <Menu dishes={this.state.dishes}/> }/>
+                    <Route path="/menu/:dishId" component={DishId} />
                     <Redirect to="/home" />
                 </Switch>
 
