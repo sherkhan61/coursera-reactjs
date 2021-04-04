@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import {Header, Footer} from "../ui";
-import {Home} from "../";
+import { Home, About } from "../";
 import { COMMENTS, DISHES, LEADERS, PROMOTIONS } from '../../lib/store/store'
 
 class Main extends Component {
@@ -29,12 +29,21 @@ class Main extends Component {
             );
         };
 
+        const AboutUsPage = () => {
+            return(
+                <About
+                    leaders={this.state.leaders}
+                />
+            );
+        };
+
         return (
             <div>
                 <Header/>
 
                 <Switch>
                     <Route path="/home" component={ HomePage } />
+                    <Route exact path="/aboutus" component={ AboutUsPage } />
                     <Redirect to="/home" />
                 </Switch>
 
