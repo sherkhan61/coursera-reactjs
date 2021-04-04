@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/static/js/main.f7df7f2c.chunk.js",
+    "main.js.map": "/static/js/main.f7df7f2c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.50a33b9a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.50a33b9a.js.map",
+    "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
+    "static/js/2.389c92d8.chunk.js": "/static/js/2.389c92d8.chunk.js",
+    "static/js/2.389c92d8.chunk.js.map": "/static/js/2.389c92d8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.8c8b27cf.chunk.css.map": "/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.389c92d8.chunk.js.LICENSE.txt": "/static/js/2.389c92d8.chunk.js.LICENSE.txt",
+    "static/media/elaicheesecake.79bcea39.png": "/static/media/elaicheesecake.79bcea39.png",
+    "static/media/uthappizza.e3b6414e.png": "/static/media/uthappizza.e3b6414e.png",
+    "static/media/vadonut.c5cd8144.png": "/static/media/vadonut.c5cd8144.png",
+    "static/media/zucchipakoda.57b1a046.png": "/static/media/zucchipakoda.57b1a046.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50a33b9a.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.389c92d8.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.f7df7f2c.chunk.js"
+  ]
+}
