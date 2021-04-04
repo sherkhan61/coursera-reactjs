@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import {Header, Footer} from "../ui";
-import { Home, About, Menu, DishDetail } from "../";
+import { Home, About, Menu, DishDetail, Contact } from "../";
 import { COMMENTS, DISHES, LEADERS, PROMOTIONS } from '../../lib/store/store'
 
 class Main extends Component {
@@ -58,6 +58,7 @@ class Main extends Component {
                     <Route exact path="/aboutus" component={ AboutUsPage } />
                     <Route exact path="/menu" component={() => <Menu dishes={this.state.dishes}/> }/>
                     <Route path="/menu/:dishId" component={DishId} />
+                    <Route exact path="/contactus" component={Contact } />
                     <Redirect to="/home" />
                 </Switch>
 
