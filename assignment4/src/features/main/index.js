@@ -1,0 +1,5 @@
+export { default as Home } from './home/Home'
+export { default as About } from './about/About'
+export { default as Menu } from './menu/Menu'
+export { default as DishDetail } from './menu/dishDetail/DishDetail'
+export { default as Contact } from './contact/Contact'
