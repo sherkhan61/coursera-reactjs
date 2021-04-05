@@ -2,32 +2,10 @@ import * as ActionTypes from "./types";
 import {baseUrl} from "../../../../lib/store/baseUrl";
 
 
-export const addComment = (comment) => ({
-    type: ActionTypes.ADD_COMMENTS,
-    payload: comment
-});
 
-
-export const postComment = (dishId, rating, author, comment)=> (dispatch)=> {
-
-    const newComment = {
-        dishId: dishId,
-        rating: rating,
-        author: author,
-        comment: comment,
-    }
-    newComment.date = new Date().toISOString();
-
-    return fetch( baseUrl + 'comments', {
-        method: 'POST',
-        body: JSON.stringify(newComment),
-        headers: {
-            'Content-type': 'application/json'
-        },
-        credentials: 'same-origin'
-    })
+export const fetchComments = () => (dispatch) => {
+    return fetch(baseUrl + 'comments')
         .then(response => {
-
                 if (response.ok) {
                     return response;
                 }
@@ -41,13 +19,18 @@ export const postComment = (dishId, rating, author, comment)=> (dispatch)=> {
             error => {
                 var errmess = new Error(error.message);
                 throw errmess;
-            }
-        )
-        .then( response => response.json() )
-        .then( response => dispatch(addComment(response)) )
-        .catch(error => {
-            console.log('Post Comments', error.message);
-            alert('Comment could not be posted\nError'+ error.message);
-        });
+            })
+        .then(response => response.json())
+        .then(comments => dispatch(addComments(comments)))
+        .catch(error => dispatch(commentsFailed(error.message)));
+};
 
-}
+export const commentsFailed = (errmess) => ({
+    type: ActionTypes.COMMENTS_FAILED,
+    payload: errmess
+});
+
+export const addComments = (comments) => ({
+    type: ActionTypes.ADD_COMMENTS,
+    payload: comments
+});
